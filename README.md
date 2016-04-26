@@ -17,7 +17,7 @@ $urls = [
     'http://www.apple.com',
     'http://php.net'
 ];
-$scanner = new \wuwenhan\scanurl\Scanurl($urls);
+$scanner = new \wuwenhan\scanurl\src\Scanurl($urls);
 print_r($scanner->getInvalidUrls());
 ```
 
